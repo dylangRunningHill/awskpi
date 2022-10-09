@@ -38,8 +38,8 @@ jobs:
       - uses: aws-actions/setup-sam@v2
       - uses: aws-actions/configure-aws-credentials@v1
         with:
-          aws-access-key-id: AKIAZ25RJ55FP3EDCIVC
-          aws-secret-access-key: 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
+          aws-access-key-id: test
+          aws-secret-access-key: test
           aws-region: eu-west-2  
           
       - name: Run a one-line script

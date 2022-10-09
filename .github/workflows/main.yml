@@ -32,3 +32,15 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: sam build
+        
+      
+        
+      - uses: aws-actions/setup-sam@v2
+      - uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: AKIAZ25RJ55FP3EDCIVC
+          aws-secret-access-key: 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
+          aws-region: eu-west-2  
+          
+      - name: Run a one-line script
+        run: sam deploy      
